@@ -6,6 +6,7 @@
 * [动态规划](动态规划/README.md)
     * [树形dp](动态规划/树形dp/README.md)
         * [树上背包](动态规划/树形dp/树上背包.md)
+        * [普通dp](动态规划/树形dp/普通dp.md)
 * [数据结构](数据结构/README.md)
 * [计算几何](计算几何/README.md)
 * [数学](数学/README.md)
