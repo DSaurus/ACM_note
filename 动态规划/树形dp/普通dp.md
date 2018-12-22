@@ -14,4 +14,4 @@ dp[x] = val[x] + sum(dp[to] > 0 ? dp[to] : 0)
 
 接下来就是找有多少个块是满足要求的（使得k最大），这个可以从下往上做，每形成一个可行的块就删掉，也是贪心的做法，这样做就可以使得块数是最大的。（因为高度再减小是没有意义的）
 
-![代码](https://github.com/DSaurus/ACM_note/blob/master/data/cfr_525_e.cpp)
+[代码](https://github.com/DSaurus/ACM_note/blob/master/data/cfr_525_e.cpp)
