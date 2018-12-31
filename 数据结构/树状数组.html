@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>数据结构 · GitBook</title>
+        <title>树状数组 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="树状数组.html" />
+    <link rel="next" href="../计算几何/" />
     
     
-    <link rel="prev" href="../动态规划/树形dp/普通dp.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -192,7 +192,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5" data-path="./">
+        <li class="chapter " data-level="1.5" data-path="./">
             
                 <a href="./">
             
@@ -206,7 +206,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="树状数组.html">
+        <li class="chapter active" data-level="1.5.1" data-path="树状数组.html">
             
                 <a href="树状数组.html">
             
@@ -331,7 +331,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >数据结构</a>
+        <a href=".." >树状数组</a>
     </h1>
 </div>
 
@@ -346,8 +346,18 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x6570;&#x636E;&#x7ED3;&#x6784;">&#x6570;&#x636E;&#x7ED3;&#x6784;</h1>
-<p>&#x8FD9;&#x91CC;&#x662F;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x677F;&#x5757;</p>
+                                <h1 id="&#x6811;&#x72B6;&#x6570;&#x7EC4;">&#x6811;&#x72B6;&#x6570;&#x7EC4;</h1>
+<h2 id="cf-goodbye2018-e">CF Goodbye2018 E.</h2>
+<h3 id="&#x9898;&#x610F;">&#x9898;&#x610F;</h3>
+<p>&#x57FA;&#x4E8E;&#x7531;&#x5EA6;&#x6570;&#x751F;&#x6210;&#x56FE;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x7ED9;&#x5B9A;n&#x4E2A;&#x70B9;&#xFF0C;&#x544A;&#x8BC9;&#x4F60;&#x6BCF;&#x4E2A;&#x70B9;&#x7684;&#x5EA6;&#x6570;&#xFF0C;&#x540C;&#x65F6;&#x6709;&#x4E00;&#x4E2A;&#x989D;&#x5916;&#x70B9;&#x4E0D;&#x77E5;&#x9053;&#x5B83;&#x7684;&#x5EA6;&#x6570;&#xFF0C;&#x5982;&#x679C;&#x8FD9;&#x4E9B;&#x70B9;&#x53EF;&#x4EE5;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x65E0;&#x91CD;&#x8FB9;&#x548C;&#x81EA;&#x73AF;&#x7684;&#x56FE;&#xFF0C;&#x95EE;&#x8FD9;&#x4E2A;&#x989D;&#x5916;&#x70B9;&#x7684;&#x5EA6;&#x6570;&#x53EF;&#x80FD;&#x662F;&#x591A;&#x5C11;&#x3002;n&#x4E3A;5e5&#x7684;&#x5927;&#x5C0F;</p>
+<h3 id="&#x9898;&#x89E3;">&#x9898;&#x89E3;</h3>
+<p>&#x8003;&#x8651;&#x6700;&#x4F73;&#x7684;&#x5339;&#x914D;&#x65B9;&#x6848;&#xFF0C;&#x4F7F;&#x5F97;&#x989D;&#x5916;&#x70B9;&#x7684;&#x5EA6;&#x6570;&#x6700;&#x5C0F;&#x3002;&#x90A3;&#x4E48;&#x4E00;&#x5B9A;&#x662F;&#x5F53;&#x524D;&#x5EA6;&#x6570;&#x6700;&#x5927;&#x7684;&#x90A3;&#x4E2A;&#x70B9;&#x53BB;&#x5339;&#x914D;&#x5EA6;&#x6570;&#x6B21;&#x5927;&#x7684;&#x70B9;&#xFF0C;&#x7136;&#x800C;&#x5982;&#x679C;&#x8FD9;&#x4E48;&#x66B4;&#x529B;&#x8D2A;&#x5FC3;&#xFF0C;&#x662F;&#x4E00;&#x5B9A;&#x4F1A;TLE&#x7684;&#x3002;</p>
+<p>&#x90A3;&#x4E48;&#x5148;&#x6392;&#x5E8F;&#xFF0C;&#x4ECE;&#x5EA6;&#x6570;&#x6700;&#x5927;&#x7684;&#x70B9;&#x8003;&#x8651;&#xFF0C;&#x8FD9;&#x4E2A;&#x70B9;&#x7684;&#x5EA6;&#x6570;&#x4E00;&#x5B9A;&#x8981;&#x901A;&#x8FC7;&#x5339;&#x914D;&#x5316;&#x6210;0&#x6216;&#x8005;1&#x3002;&#x6700;&#x4F73;&#x5339;&#x914D;&#x8981;&#x6C42;&#x5C3D;&#x91CF;&#x5339;&#x914D;&#x6210;0&#xFF0C;&#x5B9E;&#x5728;&#x4E0D;&#x884C;1&#x4E5F;&#x662F;&#x53EF;&#x4EE5;&#x7684;&#x3002;</p>
+<p>&#x4E00;&#x4E2A;&#x53EF;&#x884C;&#x7684;&#x65B9;&#x6848;&#x5C31;&#x662F;&#x7528;&#x6700;&#x5927;&#x7684;&#x548C;&#x8FDE;&#x7EED;&#x7684;k&#x4E2A;&#x6700;&#x5927;&#x7684;&#x70B9;&#x5339;&#x914D;&#xFF0C;&#x540C;&#x65F6;&#x7EF4;&#x6301;&#x5E8F;&#x5217;&#x7684;&#x6709;&#x5E8F;&#x6027;&#xFF0C;&#x5BF9;&#x4E8E;&#x8FD9;k&#x4E2A;&#x4E2D;&#x6700;&#x5C0F;&#x7684;&#x70B9;&#xFF0C;&#x53EA;&#x53D6;&#x5DE6;&#x8FB9;&#x7684;&#x90E8;&#x5206;&#x3002;&#x6BD4;&#x5982;2 2 2 3 3 4&#xFF0C;&#x6D88;&#x6389;4&#x5C31;&#x4F1A;&#x53D8;&#x6210;1 1 2 2 2 &#xFF08;&#x4E5F;&#x5C31;&#x662F;&#x5BF9;2&#x6765;&#x8BF4;&#xFF0C;&#x53D6;&#x5DE6;&#x8FB9;&#x90E8;&#x5206;&#xFF0C;&#x5176;&#x4ED6;&#x6B63;&#x5E38;&#x53D6;&#xFF09;</p>
+<p>&#x6211;&#x4EEC;&#x6CE8;&#x610F;&#x5230;&#xFF0C;&#x5F53;&#x4E00;&#x4E2A;&#x70B9;&#x65E0;&#x6CD5;&#x88AB;&#x6D88;&#x6210;0&#x6216;1&#x65F6;&#xFF0C;&#x5E76;&#x4E0D;&#x610F;&#x5473;&#x7740;&#x662F;&#x65E0;&#x89E3;&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A;&#x4E4B;&#x524D;&#x6D88;&#x6210;&#x7684;0&#xFF0C;&#x5206;&#x914D;&#x7ED9;&#x90A3;&#x4E2A;&#x989D;&#x5916;&#x70B9;&#xFF0C;&#x8FD9;&#x6837;&#x7B49;&#x4EF7;&#x4E8E;&#x5BF9;&#x5F53;&#x524D;&#x8FD9;&#x4E2A;&#x70B9;&#x51CF;1&#x3002;&#x52A0;&#x5165;&#x8FD9;&#x4E2A;&#x7279;&#x6B8A;&#x8BA8;&#x8BBA;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x80FD;&#x6C42;&#x51FA;&#x4E00;&#x4E2A;&#x6700;&#x4F73;&#x7684;&#x5339;&#x914D;&#x65B9;&#x6848;&#xFF08;&#x5269;&#x4F59;&#x6570;&#x5217;&#x4E2D;&#x7684;1&#x4E2A;&#x6570;&#x5C31;&#x662F;&#x6700;&#x5C0F;&#x7684;&#x5EA6;&#xFF09;&#x3002;</p>
+<p>&#x6574;&#x4E2A;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x7528;&#x5DEE;&#x5206;&#x6811;&#x72B6;&#x6570;&#x7EC4;&#x6765;&#x89E3;&#x51B3;&#xFF0C;&#x5BF9;&#x4E8E;&#x627E;&#x5230;&#x90A3;&#x4E2A;&#x6570;&#x7684;&#x533A;&#x95F4;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5229;&#x7528;&#x5728;&#x6811;&#x72B6;&#x6570;&#x7EC4;&#x4E0A;&#x4E8C;&#x5206;&#x5B9E;&#x73B0;&#x3002;</p>
+<p>&#x6700;&#x5927;&#x7684;&#x5EA6;&#x5C31;&#x53EA;&#x9700;&#x8981;&#x53BB;&#x6C42;&#x5269;&#x4F59;&#x6570;&#x5217;&#x4E2D;&#x6709;&#x591A;&#x5C11;&#x4E2A;0&#x53EF;&#x4EE5;&#x88AB;&#x8FD8;&#x539F;&#x6210;1&#xFF08;&#x6BCF;&#x6B21;&#x9009;2&#x4E2A;&#x70B9;&#xFF0C;&#x540C;&#x65F6;&#x52A0;1&#xFF0C;&#x7B54;&#x6848;&#x52A0;2&#xFF09;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF0C;&#x56E0;&#x4E3A;&#x6211;&#x4EEC;&#x662F;&#x4ECE;&#x53F3;&#x8FB9;&#x5EA6;&#x6700;&#x5927;&#x7684;&#x70B9;&#x5F00;&#x59CB;&#xFF0C;&#x5728;&#x5316;&#x7B80;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x540C;&#x65F6;&#x6C42;&#x5408;&#x6CD5;0&#x7684;&#x4E2A;&#x6570;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x3002;</p>
+<p>[&#x4EE3;&#x7801;]{<a href="https://github.com/DSaurus/ACM_note/blob/master/data/cf_goodbye2018_e.cpp}" target="_blank">https://github.com/DSaurus/ACM_note/blob/master/data/cf_goodbye2018_e.cpp}</a></p>
 
                                 
                                 </section>
@@ -375,12 +385,12 @@
 
             
                 
-                <a href="../动态规划/树形dp/普通dp.html" class="navigation navigation-prev " aria-label="Previous page: 普通dp">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 数据结构">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="树状数组.html" class="navigation navigation-next " aria-label="Next page: 树状数组">
+                <a href="../计算几何/" class="navigation navigation-next " aria-label="Next page: 计算几何">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -391,7 +401,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"数据结构","level":"1.5","depth":1,"next":{"title":"树状数组","level":"1.5.1","depth":2,"path":"数据结构/树状数组.md","ref":"数据结构/树状数组.md","articles":[]},"previous":{"title":"普通dp","level":"1.4.1.2","depth":3,"path":"动态规划/树形dp/普通dp.md","ref":"动态规划/树形dp/普通dp.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"数据结构/README.md","mtime":"2018-11-29T09:28:16.876Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-31T07:24:53.160Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"树状数组","level":"1.5.1","depth":2,"next":{"title":"计算几何","level":"1.6","depth":1,"path":"计算几何/README.md","ref":"计算几何/README.md","articles":[]},"previous":{"title":"数据结构","level":"1.5","depth":1,"path":"数据结构/README.md","ref":"数据结构/README.md","articles":[{"title":"树状数组","level":"1.5.1","depth":2,"path":"数据结构/树状数组.md","ref":"数据结构/树状数组.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"数据结构/树状数组.md","mtime":"2018-12-31T07:16:27.978Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-31T07:24:53.160Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
